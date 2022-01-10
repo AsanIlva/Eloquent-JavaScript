@@ -1,0 +1,40 @@
+HTTrack3.49-2 launched on Mon, 10 Jan 2022 23:04:20 at https://eloquentjavascript.net/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://eloquentjavascript.net/ -O "/Users/pascaleaugusts/websites/Eloquenst JS" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+23:10:56	Warning: 	HTML file (4351 bytes) retransferred due to lack of cache: https://eloquentjavascript.net/1st_edition/
+23:12:45	Warning: 	HTML file (387 bytes) retransferred due to lack of cache: https://eloquentjavascript.net/author
+23:12:47	Warning: 	Retry after error -5 (Unable to get server's address: nodename nor servname provided, or not known) at link ../js/acorn_codemirror.js (from https://eloquentjavascript.net/code/)
+23:12:47	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ../js/node_modules/codemirror/lib/codemirror.css (from https://eloquentjavascript.net/code/)
+23:12:47	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ../css/ejs.css (from https://eloquentjavascript.net/code/)
+23:12:47	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ../js/sandbox.js (from https://eloquentjavascript.net/code/)
+23:12:47	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ../js/chapter_info.js (from https://eloquentjavascript.net/code/)
+23:12:47	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ../js/code.js (from https://eloquentjavascript.net/code/)
+23:12:52	Warning: 	HTML file (890827 bytes) retransferred due to lack of cache: https://eloquentjavascript.net/1st_edition/print.html
+23:12:57	Warning: 	HTML file (67989 bytes) retransferred due to lack of cache: https://eloquentjavascript.net/2nd_edition/backers.html
+23:12:58	Warning: 	HTML file (4371 bytes) retransferred due to lack of cache: https://eloquentjavascript.net/1st_edition/index.html
+23:13:12	Error: 	"Not Found" (404) at link sodipodi.sourceforge.net/DTD/sodipodi-0.dtd (from https://eloquentjavascript.net/img/controlflow-straight.svg)
+23:13:12	Error: 	"Not Found" (404) at link https://eloquentjavascript.net/img/controlflow-nested-else.svg (from https://eloquentjavascript.net/img/controlflow-nested-if.svg)
+23:13:12	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ../js/acorn_codemirror.js (from https://eloquentjavascript.net/code/)
+23:13:12	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ../js/node_modules/codemirror/lib/codemirror.css (from https://eloquentjavascript.net/code/)
+23:13:12	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ../css/ejs.css (from https://eloquentjavascript.net/code/)
+23:13:12	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ../js/sandbox.js (from https://eloquentjavascript.net/code/)
+23:13:12	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ../js/chapter_info.js (from https://eloquentjavascript.net/code/)
+23:13:12	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ../js/code.js (from https://eloquentjavascript.net/code/)
+23:13:12	Error: 	"Not Found" (404) at link https://eloquentjavascript.net/1st_edition/css/img/hr.png (from https://eloquentjavascript.net/1st_edition/css/book.css)
+23:13:12	Error: 	"Not Found" (404) at link https://eloquentjavascript.net/2nd_edition/img/controlflow-nested-else.svg (from https://eloquentjavascript.net/2nd_edition/img/controlflow-nested-if.svg)
+23:13:12	Error: 	"Not Found" (404) at link https://eloquentjavascript.net/2nd_edition/img/image.svg (from https://eloquentjavascript.net/2nd_edition/img/re_number.svg)
+23:13:12	Error: 	"Not Found" (404) at link https://eloquentjavascript.net/2nd_edition/img/201407_ejs_unicycle_vector.ai (from https://eloquentjavascript.net/2nd_edition/img/unicycle.svg)
+23:13:12	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link ../js/acorn_codemirror.js (from https://eloquentjavascript.net/code/)
+23:13:12	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link ../js/node_modules/codemirror/lib/codemirror.css (from https://eloquentjavascript.net/code/)
+23:13:12	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link ../css/ejs.css (from https://eloquentjavascript.net/code/)
+23:13:12	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link ../js/sandbox.js (from https://eloquentjavascript.net/code/)
+23:13:12	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link ../js/chapter_info.js (from https://eloquentjavascript.net/code/)
+23:13:12	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link ../js/code.js (from https://eloquentjavascript.net/code/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 52 seconds : 279 links scanned, 309 files written (56690972 bytes overall) [32228746 bytes received at 60580 bytes/sec], 1693 bytes transferred using HTTP compression in 1 files, ratio 51%, 4.8 requests per connection
+(12 errors, 17 warnings, 0 messages)
